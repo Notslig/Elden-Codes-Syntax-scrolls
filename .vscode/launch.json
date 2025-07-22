@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "mainHubVS",
+      "request": "launch",
+      "mainClass": "CollegeStuff.labprograms.Java.main.mainHubVS",
+      "projectName": "StudioCode_76b16805"
+    },
+    {
+      "type": "java",
       "name": "mainhub",
       "request": "launch",
       "mainClass": "CollegeStuff.labprograms.Java.main.mainhub",
