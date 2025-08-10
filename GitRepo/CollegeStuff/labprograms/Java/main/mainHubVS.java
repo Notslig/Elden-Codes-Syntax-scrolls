@@ -3,12 +3,17 @@ package CollegeStuff.labprograms.Java.main;
 
 // Main hub to run various Java programs if using other packages
 // I have not used since its in same package
-import CollegeStuff.labprograms.Java.srcprogram.studentdetails;
-import CollegeStuff.labprograms.Java.srcprogram.sumofproducts;
-import CollegeStuff.labprograms.Java.srcprogram.matrixrowsum;
-import CollegeStuff.labprograms.Java.srcprogram.mirrorinverse;
-import CollegeStuff.labprograms.Java.srcprogram.numericswitch;
-import CollegeStuff.labprograms.Java.srcprogram.fibonnaccinum;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.studentdetails;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.substringfunc;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.sumofproducts;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.matrixrowsum;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.mirrorinverse;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.numericswitch;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.fibonnaccinum;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.matrixaddsub;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.salarycheck;
+import CollegeStuff.labprograms.Java.srcprogram.ScannerRunner.distancefeet;
+
 
 import java.lang.System;
 import java.lang.Exception;
@@ -27,6 +32,9 @@ public class mainHubVS {
         System.out.println("4: Mirror Inverse");
         System.out.println("5: Numeric Switch");
         System.out.println("6: Fibonacci Number");
+        System.out.println("7: Matrix addition and subtraction");
+        System.out.println("8: Salary Check of Employee");
+        System.out.println("9: Distance in Feet and Inches");
         
         try {
             System.out.print("Fetch the program using the number: ");
@@ -61,6 +69,26 @@ public class mainHubVS {
                     System.out.println("Program to find Fibonnacci number by inputting the range from start till end using java ");
                     fibonnaccinum fibonnacci = new fibonnaccinum();
                     fibonnacci.fibonnacii();
+                    break;
+                case 7:
+                    System.out.println("Program to add and subtract two matrices of same dimensions");
+                    matrixaddsub matrix = new matrixaddsub();
+                    matrix.matrixaddingsubing();
+                    break;
+                case 8:
+                    System.out.println("Program to check salary of employee and calculate PF, DA, HRA, Gross and Net Salary");
+                    salarycheck salary = new salarycheck(); 
+                    salary.employeeSalaryCheck();
+                    break;
+                case 9:
+                    System.out.println("Program to extract String elements ");
+                    substringfunc extract = new substringfunc();
+                    extract.ExtractString();
+                    break;
+                case 10:
+                    System.out.println("Program to find distance in feet and inches");
+                    distancefeet feet = new distancefeet();
+                    feet.feetfinder();
                     break;
                 default:
                     System.out.println("Not in my .$directory please take that L and cope");

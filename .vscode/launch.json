@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "quizgame.App",
+      "projectName": "StudioCode_76b16805"
+    },
+    {
+      "type": "java",
+      "name": "MainGame",
+      "request": "launch",
+      "mainClass": "Project_Escapeade.main.MainGame",
+      "projectName": "StudioCode_76b16805"
+    },
+    {
+      "type": "java",
+      "name": "distancefeet",
+      "request": "launch",
+      "mainClass": "CollegeStuff.labprograms.Java.srcprogram.distancefeet",
+      "projectName": "StudioCode_76b16805"
+    },
+    {
+      "type": "java",
+      "name": "salarycheck",
+      "request": "launch",
+      "mainClass": "CollegeStuff.labprograms.Java.srcprogram.salarycheck",
+      "projectName": "StudioCode_76b16805"
+    },
+    {
+      "type": "java",
+      "name": "matrixaddsub",
+      "request": "launch",
+      "mainClass": "CollegeStuff.labprograms.Java.srcprogram.matrixaddsub",
+      "projectName": "StudioCode_76b16805"
+    },
+    {
+      "type": "java",
       "name": "mainHubVS",
       "request": "launch",
       "mainClass": "CollegeStuff.labprograms.Java.main.mainHubVS",
