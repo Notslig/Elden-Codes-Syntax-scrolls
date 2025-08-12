@@ -1,8 +1,5 @@
 package CollegeStuff.labprograms.Java.main;
 
-
-// Main hub to run various Java programs if using other packages
-// I have not used since its in same package
 import CollegeStuff.labprograms.Java.srcprogram.JPanelblock.arithmeticswitch;
 import CollegeStuff.labprograms.Java.srcprogram.JPanelblock.extractionString;
 import CollegeStuff.labprograms.Java.srcprogram.JPanelblock.feetfinder;
@@ -16,6 +13,7 @@ import CollegeStuff.labprograms.Java.srcprogram.JPanelblock.sumofproduct;
 import java.awt.*;
 import java.util.InputMismatchException;
 import javax.swing.*;
+
 
 public class mainhub {
      public static void main(String[] args) throws Exception {
