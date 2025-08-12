@@ -33,8 +33,7 @@ public class mainhub {
 
         windowscreen.setVisible(true);
         
-
-  String input = JOptionPane.showInputDialog(
+        String input = JOptionPane.showInputDialog(
             windowscreen,
             """
             Enter a number to choose your program:
