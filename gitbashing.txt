@@ -1,13 +1,20 @@
-echo "# Project-Escapade-" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Notslig/Project-Escapade-.git
-git push -u origin main
+git init                                # Start Git in this folder
+git branch -M main                      # Name your branch 'main'
+git remote add origin https://github.com/YourUsername/MyJavaApp.git
+
+git add .                               # Stage ALL changes
+git commit -m "First commit" 
 
 
-PUSH AN EXISTING REPO
-git remote add origin https://github.com/Notslig/Project-Escapade-.git
-git branch -M main
+
 git push -u origin main
+git push
+
+
+git clone https://github.com/YourUsername/ExistingRepo.git
+cd ExistingRepo
+
+
+git add . 
+git commit -m "Your update message"
+git push
